@@ -1,0 +1,16 @@
+table {
+ width: 50%;
+ margin: auto;
+}
+
+.btn:hover {
+ background-color: red;
+}
+
+td {
+ font-size: large;
+}
+
+h1 {
+ padding-top: 1cm;
+}

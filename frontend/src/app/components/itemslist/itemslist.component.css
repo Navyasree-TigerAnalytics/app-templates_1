@@ -1,0 +1,30 @@
+table {
+ min-width: 0%;
+ margin-left: 50px;
+ margin-top: 30px;
+}
+
+.center {
+ margin-left: auto;
+ margin-right: auto;
+}
+
+th,
+td {
+ text-align: center;
+ height: 70px;
+ padding: 0 8px 0 8px;
+}
+
+tr:nth-child(even) {
+ background-color: #f2f2f2;
+
+}
+
+th {
+ font-size: large;
+}
+
+td {
+ font-size: medium;
+}

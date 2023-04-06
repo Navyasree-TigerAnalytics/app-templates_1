@@ -1,0 +1,57 @@
+<div class="getitem">
+ <h1 class="text-center">GET ITEM</h1>
+ <div>
+  <table class="table">
+   <tr>
+    <td> ENTER ITEM ID </td>
+    <td> <input type="number" class="form-control" placeholder="Enter Id" autofocus="" [(ngModel)]="item.item_id">
+    </td>
+    <button class="btn btn-success" (click)="getsingleitem(item.item_id)">Get Details</button>
+   </tr>
+  </table>
+ </div>
+ <br>
+ <div *ngIf="items">
+  <table>
+   <tr>
+    <td> Item Id </td>
+    <td>{{items.item_id}}</td>
+   </tr>
+   <tr>
+    <td> Item Code </td>
+    <td>{{items.item_code}}</td>
+   </tr>
+   <tr>
+    <td> Item Name </td>
+    <td>{{items.item_name}}</td>
+   </tr>
+   <tr>
+    <td> Recom_Flag </td>
+    <td>{{items.recommender_flag}}</td>
+   </tr>
+   <tr>
+    <td> Scenario Planner </td>
+    <td>{{items.scenario_planner_flag}}</td>
+   </tr>
+   <tr>
+    <td> Cat_ID </td>
+    <td>{{items.category_id}}</td>
+   </tr>
+   <tr>
+    <td> Promo_ID </td>
+    <td>{{items.promo_type_id}}</td>
+   </tr>
+   <tr>
+    <td> Promo_Code </td>
+    <td>{{items.promo_type_code}}</td>
+   </tr>
+   <tr>
+    <td> No. Stores </td>
+    <td>{{items.n_store}}</td>
+   </tr>
+   <tr>
+    <td> Active </td>
+    <td>{{items.active}}</td>
+   </tr>
+  </table>
+ </div>

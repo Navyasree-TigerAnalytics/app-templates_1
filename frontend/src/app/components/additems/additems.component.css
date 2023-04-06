@@ -1,0 +1,21 @@
+table {
+ width: 50%;
+ margin: auto;
+}
+
+.btn {
+ background-color: green;
+}
+
+.btn:hover {
+ background-color: red;
+}
+
+h1 {
+ padding-top: 1cm;
+ font-style: italic;
+}
+
+td {
+ font-size: large;
+}

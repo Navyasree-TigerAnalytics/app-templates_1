@@ -1,0 +1,56 @@
+<div class="container">
+ <form [formGroup]="angForm" (ngSubmit)="postdata(angForm)" autocomplete="off">
+  <table class="table">
+   <tr>
+    <td colspan="2">
+     <h1 class="text-center">Edit Item</h1>
+    </td>
+   </tr>
+   <tr>
+    <td> Item Id </td>
+    <td><input type="number" formControlName="item_id" class="form-control" placeholder="Item Id"></td>
+   </tr>
+   <tr>
+    <td> Item Code </td>
+    <td><input type="number" formControlName="item_code" class="form-control" placeholder="Item code"></td>
+   </tr>
+   <tr>
+    <td> Item Name </td>
+    <td><input type="text" formControlName="item_name" class="form-control" placeholder="Item name"></td>
+   </tr>
+   <tr>
+    <td> Recom_Flag </td>
+    <td><input type="text" formControlName="recommender_flag" class=" form-control" placeholder="0 or 1"></td>
+   </tr>
+   <tr>
+    <td> Scenario Planner </td>
+    <td><input type="number" formControlName="scenario_planner_flag" class="form-control" placeholder="0 or 1"></td>
+   </tr>
+   <tr>
+    <td> Cat_ID </td>
+    <td><input type="number" formControlName="category_id" class="form-control" placeholder="category_id"></td>
+   </tr>
+   <tr>
+    <td> Promo_ID </td>
+    <td><input type="number" formControlName="promo_type_id" class="form-control" placeholder="promo_type_id"></td>
+   </tr>
+   <tr>
+    <td> Promo_Code </td>
+    <td><input type="text" formControlName="promo_type_code" class="form-control" placeholder="promo name"></td>
+   </tr>
+   <tr>
+    <td> No. Stores </td>
+    <td><input type="number" formControlName="n_store" class="form-control" placeholder="number of stores"></td>
+   </tr>
+   <tr>
+    <td> Active </td>
+    <td><input type="number" formControlName="active" class="form-control" placeholder="0 or 1"></td>
+   </tr>
+   <tr>
+    <td colspan="2" class="text-center">
+     <input type="submit" name="Submit" value="Edit Item" class="btn btn-success">
+    </td>
+   </tr>
+  </table>
+ </form>
+</div>
